@@ -35,4 +35,8 @@ Place each of the files provided (`index.html`, `style.css`, `app.js`, `server.j
 **Step 3: Open a Terminal**
 Open your command prompt or terminal (like Terminal on Mac, or Command Prompt/PowerShell on Windows). Navigate into the main `CarMate-Project` folder using the `cd` command. For example:
 ```bash
+
 cd path/to/your/CarMate-Project
+
+And enter
+node server.js
