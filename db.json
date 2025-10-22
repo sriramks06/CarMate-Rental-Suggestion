@@ -1,0 +1,75 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Maruti Suzuki",
+      "model": "Swift",
+      "year": 2023,
+      "type": "Hatchback",
+      "fuel": "Petrol",
+      "price": 750000,
+      "rentalPerDay": 1200,
+      "image": "https://placehold.co/600x400/16a34a/ffffff?text=Swift",
+      "forSale": true,
+      "forRent": true,
+      "reviews": [
+        {
+          "user": "Rohan",
+          "rating": 4,
+          "comment": "Great city car! Very fuel efficient."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "make": "Hyundai",
+      "model": "Creta",
+      "year": 2022,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "price": 1400000,
+      "rentalPerDay": 2500,
+      "image": "https://placehold.co/600x400/16a34a/ffffff?text=Creta",
+      "forSale": true,
+      "forRent": true,
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "make": "Honda",
+      "model": "City",
+      "year": 2023,
+      "type": "Sedan",
+      "fuel": "Petrol",
+      "price": 1250000,
+      "rentalPerDay": 2200,
+      "image": "https://placehold.co/600x400/ef4444/ffffff?text=City",
+      "forSale": true,
+      "forRent": true,
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "make": "Tata",
+      "model": "Nexon EV",
+      "year": 2023,
+      "type": "SUV",
+      "fuel": "Electric",
+      "price": 1600000,
+      "rentalPerDay": 3000,
+      "image": "https://placehold.co/600x400/db2777/ffffff?text=Nexon+EV",
+      "forSale": true,
+      "forRent": true,
+      "reviews": []
+    }
+  ],
+  "rentals": [
+    {
+      "carId": 1,
+      "startDate": "2025-10-23",
+      "endDate": "2025-10-25",
+      "id": 1761110275754,
+      "status": "Approved"
+    }
+  ]
+}

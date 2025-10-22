@@ -1,0 +1,14 @@
+{
+  "name": "carmate-complete-project",
+  "version": "1.0.0",
+  "description": "A full-stack car rental and buying suggestion system.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Gemini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
