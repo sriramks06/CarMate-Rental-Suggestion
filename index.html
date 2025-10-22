@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarMate – Car Rental & Buying System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#home" class="logo">CarMate</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#rent" class="nav-link">Rent a Car</a>
+                <a href="#buy" class="nav-link">Buy a Car</a>
+                <a href="#admin" class="nav-link">Admin Panel</a>
+            </div>
+            <button id="mobile-menu-button" class="mobile-menu-button">☰</button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu hidden">
+             <a href="#home" class="nav-link">Home</a>
+             <a href="#rent" class="nav-link">Rent a Car</a>
+             <a href="#buy" class="nav-link">Buy a Car</a>
+             <a href="#admin" class="nav-link">Admin Panel</a>
+        </div>
+    </header>
+
+    <main id="app" class="container">
+        </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CarMate. A Complete Full-Stack Project.</p>
+        </div>
+    </footer>
+
+    <div id="modal-container" class="modal-container hidden">
+        <div id="modal-content" class="modal-content">
+            </div>
+    </div>
+    
+    <div id="toast" class="toast hidden">
+        <p id="toast-message"></p>
+    </div>
+
+</body>
+</html>
